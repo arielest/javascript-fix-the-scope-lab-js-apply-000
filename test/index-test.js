@@ -23,7 +23,7 @@ return animal;
       expect(window.myAnimal()).toEqual('dog')
     })
   })
-
+//
   describe('add2(n)', function() {
     it('adds two to n', function() {
       const n = Math.floor(Math.random() * 1000)
