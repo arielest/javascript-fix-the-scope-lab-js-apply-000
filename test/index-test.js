@@ -15,16 +15,6 @@ function add2(n) {
  var two = 2
   return n + two;
 }
-  describe('funkyFunction()', function() {
-    it('returns a function', function() {
-      expect(typeof window.funkyFunction()).toEqual('function')
-    })
-  })
-
-  describe("the variable 'theFunk'", function() {
-    it('is equal to "FUNKY!"', function() {
-      expect(window.theFunk).toEqual('FUNKY!')
-    })
-  })
-
-})
+ var funkyFunction = function() {
+  return function() {	  return function() {
+    return "FUNKY!"	    return "FUNKY!"
