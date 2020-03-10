@@ -1,8 +1,9 @@
 /*global describe, it */
 
 function myAnimal() {
-var animal = 'dog';
-return animal;
+    var animal = 'dog';
+    return animal;
+  }
 
 function yourAnimal() {	function yourAnimal() {
   // How can we make sure that this function	  // How can we make sure that this function
