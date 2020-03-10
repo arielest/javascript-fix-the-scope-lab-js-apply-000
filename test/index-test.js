@@ -10,6 +10,10 @@ function yourAnimal() {	function yourAnimal() {
   return animal
 }
 
+function yourAnimal() {
+  var animal = 'cat';
+  return animal;
+}
 
 
 
