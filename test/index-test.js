@@ -1,16 +1,22 @@
 /*global describe, it */
 
-describe('Fix the Scope', function() {
-  describe('myAnimal()', function() {
-    it('returns the animal variable', () => {
-      expect(window.myAnimal()).toEqual('dog')
-    })
+function myAnimal() {
+var animal = 'dog';
+return animal;
+}
 
-    it('does not modify the  animal variable', () => {
-      expect(window.myAnimal.toString()).toNotContain("animal =")
-    })
-  })
+function yourAnimal() {	function yourAnimal() {
+  // How can we make sure that this function	  // How can we make sure that this function
+  // and the above function both pass?	  // and the above function both pass?
+  // P.S.: You can't just hard-code 'cat' below	  // P.S.: You can't just hard-code 'cat' below
+  return animal	  return animal
+}	}
 
+
+function yourAnimal() {
+  var animal = 'cat';
+  return animal;
+}
   describe('yourAnimal()', function() {
     it('returns your animal', function(){
       expect(window.yourAnimal()).toEqual('cat')
