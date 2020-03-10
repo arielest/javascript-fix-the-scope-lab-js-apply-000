@@ -5,9 +5,11 @@ var animal = 'dog';
 return animal;
 }
 
+  function yourAnimal() {
   var animal = 'cat';
   return animal;
-}
+  }
+  
   describe('yourAnimal()', function() {
     it('returns your animal', function(){
       expect(window.yourAnimal()).toEqual('cat')
