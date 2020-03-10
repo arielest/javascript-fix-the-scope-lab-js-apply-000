@@ -4,13 +4,17 @@ function myAnimal() {
 var animal = 'dog';
 return animal;
 
-describe('add2(n)', function() {
-    it('adds two to n', function() {
-      const n = Math.floor(Math.random() * 1000)
-      expect(window.add2(n)).toEqual(n + 2)
-    })
-  })
+function add2(n) {
+  return n + two	  return n + two
+// Feel free to move things around!	  // Feel free to move things around!
+  const two = 2	  const two = 2
+}	}
 
+
+function add2(n) {
+ var two = 2
+  return n + two;
+}
   describe('funkyFunction()', function() {
     it('returns a function', function() {
       expect(typeof window.funkyFunction()).toEqual('function')
