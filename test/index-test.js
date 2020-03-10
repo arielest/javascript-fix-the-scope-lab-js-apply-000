@@ -5,16 +5,12 @@ function myAnimal() {
     return animal;
   }
 
-function yourAnimal() {	function yourAnimal() {
-  // How can we make sure that this function	  // How can we make sure that this function
-  // and the above function both pass?	  // and the above function both pass?
-  return animal
-}
-
 function yourAnimal() {
-  var animal = 'cat';
-  return animal;
-}
+    var animal = 'cat';
+    return animal;
+  }
+
+
 
 
 function add2(n) {
