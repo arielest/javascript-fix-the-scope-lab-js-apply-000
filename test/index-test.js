@@ -27,3 +27,33 @@ var funkyFunction = function() {
 }
 var theFunk = funkyFunction()
 var theFunk = funkyFunction
+
+var funkyFunction = function() {
+    return function(){
+      return "FUNKY!"
+    }
+}
+
+
+  describe('theFunk', function() {	  describe('theFunk', function() {
+    it('is "FUNKY!"', function() {	    it('is "FUNKY!"', function() {
+      expect(window.theFunk).toEqual('FUNKY!')	      expect(window.theFunk).toEqual('FUNKY!')
+    })	    })
+  })	  })
+
+
+  var funkyFunction = function() {
+    return function(){
+      return "FUNKY!"
+    }
+  }
+
+  var theFunk = funkyFunction()()
+
+})	})
+
+
+
+
+
+
