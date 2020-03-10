@@ -30,6 +30,5 @@ function add2(n) {
   return function() {	  
     return "FUNKY!"	
     
+var theFunk = funkyFunction()
 var theFunk = funkyFunction
-var theFunk = funkyFunction()()
- 30  test/index-test.js 
