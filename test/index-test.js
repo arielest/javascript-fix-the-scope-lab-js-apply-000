@@ -7,8 +7,7 @@ return animal;
 function yourAnimal() {	function yourAnimal() {
   // How can we make sure that this function	  // How can we make sure that this function
   // and the above function both pass?	  // and the above function both pass?
-  // P.S.: You can't just hard-code 'cat' below	  // P.S.: You can't just hard-code 'cat' below
-  return animal	  return animal
+  return animal
 }
 
 
